@@ -9,8 +9,8 @@
 # Team (Contributors)
 | Name                   | Email               |Role                 |
 |------------------------|---------------------|---------------------|
-| Brahim Kanouche        | ibrahim.kanouche@gnail.com |      |
-| Oumaima Talaghzi        | add your email |       |
+| Brahim Kanouche        | ibrahim.kanouche@gmail.com |      |
+| Oumaima Talaghzi        | oumaima.talaghzi@gmail.com |       |
 | Jihad Janjary                | add your email   |       |
 | Nouhaila Zouini               | add your email   |       |
 
