@@ -1,13 +1,28 @@
 .background{
-    --background: url(./../../../../assets/images/bg5.jpg) 0 0/100% 100% no-repeat;
+    --background: url(./../../../../assets/images/bg7.jpg) 0 0/100% 100% no-repeat;
 }
 
 .form{
     padding-top: 220px;
 }
 
+#login {
+    width: 91%;
+    height: 45px;
+    border: none; /* <-- This thing here */
+    border-radius: 10px;
+    padding-left: 31px;
+}
+
+#txt{
+    align-items: center;
+    padding-left: 110px;
+    color: white;
+
+}
+
 #test{
-        width: 95%;
+        width: 80%;
         height: 45px;
         margin: 0 auto;
         border: none; /* <-- This thing here */
@@ -16,7 +31,7 @@
 }
 
 #pass{
-    width: 95%;
+    width: 80%;
     height: 45px;
     margin: 0 auto;
     border: none; /* <-- This thing here */
