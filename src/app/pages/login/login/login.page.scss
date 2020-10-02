@@ -1,0 +1,29 @@
+.background{
+    --background: url(./../../../../assets/images/bg5.jpg) 0 0/100% 100% no-repeat;
+}
+
+.form{
+    padding-top: 220px;
+}
+
+#test{
+        width: 95%;
+        height: 45px;
+        margin: 0 auto;
+        border: none; /* <-- This thing here */
+        border:solid 1px #ccc;
+        border-radius: 10px;
+}
+
+#pass{
+    width: 95%;
+    height: 45px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+}
+
+ion-icon {
+    color: #440454;
+}
