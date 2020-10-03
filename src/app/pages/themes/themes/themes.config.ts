@@ -21,6 +21,7 @@ export const ACCEUIL_CARDS:AcceuilCard[] = [
     {
         title: "Technologies",
         src : "../../../../assets/images/t21.jpg",
+        url : "/rooms"
     },
     {
         title: "Medecine",
