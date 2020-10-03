@@ -11,6 +11,14 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginModule),data: { preload: true }
   },
+  {
+    path: 'themes',
+    loadChildren: () => import('./pages/themes/themes.module').then( m => m.ThemesPageModule)
+  },
+  {
+    path: 'timeline',
+    loadChildren: () => import('./pages/timeline/timeline.module').then( m => m.TimelinePageModule)
+  },
 ];
 
 @NgModule({

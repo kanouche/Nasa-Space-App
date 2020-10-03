@@ -1,0 +1,21 @@
+
+  <ion-content class="ion-padding" id="background">
+
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let item of acceuilCards" size="6">
+          <ion-card  class="ion-text-center" routerDirection="root" [routerLink]="item.url">
+            <ion-card-header>
+              <ion-card-subtitle style="color: #5333b8;"  class="ion-margin-bottom">
+                {{item.title}}
+              </ion-card-subtitle>
+              <ion-img  class="img" [src]="item.src"></ion-img>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+  
+    </ion-grid>
+  
+  
+  </ion-content>
