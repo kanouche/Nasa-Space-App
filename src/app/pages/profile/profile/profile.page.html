@@ -1,0 +1,29 @@
+<ion-content class="background" >
+<ng-container >
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <ion-avatar >
+          <img src="../../../../assets/images/avatar.png" alt="photo de profile">
+        </ion-avatar>
+      </div>
+
+    </div>
+    <div class="card-body">
+      <h4>Ibrahim Kanouche</h4>
+      <p><b>Username : </b>test</p>
+      <p><b>Email : </b>test</p>
+      <hr>
+    </div>
+    <ion-button  [routerLink]="['/login']" type="submit" color="warning" id="logout"
+    ><strong>Logout</strong></ion-button
+  >
+  </div>
+</ng-container>
+<ng-template #noUser>
+  <ion-card-title>
+    Oops Aucun utilisateur Trouvée ,Veuillez vous reconnecter 
+  </ion-card-title>
+</ng-template>
+
+</ion-content>

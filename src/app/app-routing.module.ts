@@ -27,6 +27,11 @@ const routes: Routes = [
     path: 'timeline',
     loadChildren: () => import('./pages/timeline/timeline.module').then( m => m.TimelinePageModule),data: { preload: true }
   },
+  {
+    path: 'profile',
+    loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule),data: { preload: true }
+  },
+
 ];
 
 @NgModule({

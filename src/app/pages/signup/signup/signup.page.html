@@ -1,62 +1,76 @@
-
-
-
 <ion-content id="background">
-  <form #form="ngForm" (ngSubmit)="register(form)" method="post" id="form">
+  <img src="../../../../assets/images/logo.png" style="width:250px;height: 220px;" class="center"/>
+  <form #form="ngForm" method="post" id="form">
     <ion-item id="input">
-        <ion-label position="floating">Full Name</ion-label>
-        <ion-input ngModel name="fName" ></ion-input>
+      <ion-icon name="person-circle-outline"></ion-icon>
+      <ion-input placeholder="fullname" ngModel name="fName"></ion-input>
     </ion-item>
 
     <ion-item id="input">
-      <ion-label position="floating">User Name</ion-label>
-      <ion-input ngModel name="UName"></ion-input>
-    </ion-item>
-  
-    <ion-item id="input">
-      <ion-label position="floating">Email</ion-label>
-      <ion-input type="email" ngModel name="email"></ion-input>
-    </ion-item>
-  
-    <ion-item id="input">
-      <ion-label position="floating">Password</ion-label>
-      <ion-input type="password" ngModel name="password"></ion-input>
-    </ion-item>
-
-
-    <ion-item id="input">
-      <ion-label>Gender</ion-label>
-      <ion-list radio-group (ngModel)="relationship">
-        <ion-select value="f" okText="Okay" cancelText="Dismiss">
-          <ion-select-option value="f">Female</ion-select-option>
-          <ion-select-option value="m">Male</ion-select-option>
-        </ion-select>
-      </ion-list>
+      <ion-icon name="person-circle-outline"></ion-icon>
+      <ion-input ngModel name="UName" placeholder="username"></ion-input>
     </ion-item>
 
     <ion-item id="input">
-      <ion-label>Country</ion-label>
-      <ion-list radio-group (ngModel)="relationship">
-        <ion-select value="maroc" okText="Okay" cancelText="Dismiss">
+      <ion-icon name="mail-outline"></ion-icon>
+      <ion-input
+        type="email"
+        ngModel
+        name="email"
+        placeholder="email"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item id="input">
+      <ion-icon name="lock-closed-outline"></ion-icon>
+      <ion-input
+        type="password"
+        ngModel
+        name="password"
+        placeholder="password"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item id="input">
+      <ion-icon name="transgender-outline"></ion-icon>
+      <ion-select>
+        <ion-select-option value="female">Female</ion-select-option>
+        <ion-select-option value="male">Male</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item id="input">
+      <ion-icon name="planet-outline"></ion-icon>
+        <ion-select>
           <ion-select-option value="maroc">Morocco</ion-select-option>
           <ion-select-option value="france">France</ion-select-option>
           <ion-select-option value="italy">Italy</ion-select-option>
           <ion-select-option value="spain">Spain</ion-select-option>
         </ion-select>
-      </ion-list>
     </ion-item>
 
     <ion-item id="input">
-      <ion-label>Birthday</ion-label>
-      <ion-datetime value="2019-10-01T15:43:40.394Z" display-timezone="utc"></ion-datetime>
+      <ion-icon name="calendar-outline"></ion-icon>
+      <ion-datetime
+        value="2019-10-01T15:43:40.394Z"
+        display-timezone="utc"
+      ></ion-datetime>
     </ion-item>
     <ion-row>
       <ion-col>
         <ion-button type="submit" color="warning" id="login"
-          ><strong>Sign Up</strong></ion-button>
+          ><strong>Sign Up</strong></ion-button
+        >
       </ion-col>
     </ion-row>
-    <p id="account">Already have an account ?<a id="txt" [routerLink]="['/forgot-password']" class="small-text">Login In</a></p>
+    <p id="account" style="color: white;">
+      Already have an account ?<a
+        id="txt"
+        [routerLink]="['/login']"
+        class="small-text"
+        style="color: white;"
+        >Login In</a
+      >
+    </p>
   </form>
-  
 </ion-content>
