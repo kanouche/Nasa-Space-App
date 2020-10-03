@@ -21,11 +21,11 @@ const routes: Routes = [
   },
   {
     path: 'themes',
-    loadChildren: () => import('./pages/themes/themes.module').then( m => m.ThemesPageModule)
+    loadChildren: () => import('./pages/themes/themes.module').then( m => m.ThemesPageModule),data: { preload: true }
   },
   {
     path: 'timeline',
-    loadChildren: () => import('./pages/timeline/timeline.module').then( m => m.TimelinePageModule)
+    loadChildren: () => import('./pages/timeline/timeline.module').then( m => m.TimelinePageModule),data: { preload: true }
   },
 ];
 
