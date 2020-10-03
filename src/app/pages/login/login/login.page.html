@@ -1,5 +1,6 @@
 <ion-content class="background">
   <div class="container">
+    <img src="../../../../assets/images/logo.png"/>
     <form class="form">
       <ion-item id="test">
         <ion-icon name="person-outline"></ion-icon>
@@ -18,8 +19,14 @@
           >
           <br/>
           <a id="txt" [routerLink]="['/forgot-password']" class="small-text"
-            >Forgot Password?</a
-          >
+            >Forgot Password?</a>
+          <br/>
+          <ion-icon class="icon" name="logo-facebook" size="large" style="color: white;"></ion-icon>
+          <ion-icon class="icon" name="logo-google" size="large" style="color: red;"></ion-icon>
+          <ion-icon class="icon" name="logo-twitter" size="large" style="color:mediumturquoise;"></ion-icon>
+          <a id="txt2" [routerLink]="['/signup']" class="small-text"
+          >Already have an account? Signup</a>
+        <br/>
         </ion-col>
       </ion-row>
     </form>

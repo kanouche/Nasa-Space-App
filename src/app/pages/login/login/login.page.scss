@@ -3,7 +3,7 @@
 }
 
 .form{
-    padding-top: 220px;
+    padding-top: 10px;
 }
 
 #login {
@@ -16,10 +16,18 @@
 
 #txt{
     align-items: center;
-    padding-left: 110px;
+    padding-left: 130px;
     color: white;
 
 }
+
+
+#txt2{
+    align-items: center;
+    padding-left: 85px;
+    color: white;
+}
+
 
 #test{
         width: 80%;
@@ -37,6 +45,27 @@
     border: none; /* <-- This thing here */
     border:solid 1px #ccc;
     border-radius: 10px;
+}
+
+
+#signup {
+    width: 91%;
+    height: 45px;
+    border: none; /* <-- This thing here */
+    border-radius: 10px;
+    padding-left: 31px;
+    padding-top: 10px;
+}
+
+
+img {
+    size: 12020px;
+}
+
+
+.icon  {
+    padding-left: 75px;
+    padding-top: 30px;
 }
 
 ion-icon {
