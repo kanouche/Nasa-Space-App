@@ -1,0 +1,28 @@
+#input{
+    width: 80%;
+    height: 45px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#background{
+    --background: url(./../../../../assets/images/bg7.jpg) 0 0/100% 100% no-repeat;
+}
+
+#login {
+    width: 91%;
+    height: 45px;
+    border: none; /* <-- This thing here */
+    border-radius: 10px;
+    padding-left: 31px;
+}
+
+#form{
+    padding-top: 50px;
+}
+
+#account{
+    text-align: center;
+}
