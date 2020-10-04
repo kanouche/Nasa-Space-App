@@ -11,8 +11,8 @@
 |------------------------|---------------------|---------------------|
 | Brahim Kanouche        | ibrahim.kanouche@gmail.com |      |
 | Oumaima Talaghzi        | oumaima.talaghzi@gmail.com |       |
-| Jihad Janjary                | add your email   |       |
-| Nouhaila Zouini               | add your email   |       |
+| Jihad Janjary                | jihadjanjary1@gmail.com   |       |
+| Nouhaila Zouini               | zouininouhaila@gmail.com   |       |
 
 # Project - APP NAME -
 
