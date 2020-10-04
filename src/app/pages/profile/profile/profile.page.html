@@ -1,3 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon style="color: blueviolet;" slot="icon-only" name="search"></ion-icon>
+      </ion-button>
+      <ion-button [routerLink]="['/login']">
+        <ion-icon id="out" style="color: blueviolet;" name="log-out-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon id="rooms" style="color: blueviolet;" name="list-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+  </ion-toolbar>
+  </ion-header>
+
+
 <ion-content class="background" >
 <ng-container >
   <div class="card">
@@ -10,14 +30,15 @@
 
     </div>
     <div class="card-body">
-      <h4>Ibrahim Kanouche</h4>
+      <h4>Fullname</h4>
       <p><b>Username : </b>test</p>
       <p><b>Email : </b>test</p>
+      <p><b>Age : </b>23</p>
+      <p><b>Country : </b>test</p>
+      <p><b>Gender : </b>test</p>
+
       <hr>
     </div>
-    <ion-button  [routerLink]="['/login']" type="submit" color="warning" id="logout"
-    ><strong>Logout</strong></ion-button
-  >
   </div>
 </ng-container>
 <ng-template #noUser>
